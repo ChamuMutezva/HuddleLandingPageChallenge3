@@ -157,6 +157,7 @@ div#copyRight {
 
     span#reg {
         width: 300px;
+        margin-top: 5%;
         justify-self: center;
         line-height: 1em;
     }
