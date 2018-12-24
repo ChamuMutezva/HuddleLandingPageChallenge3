@@ -29,6 +29,10 @@ main img {
     margin-left: 15%;
 }
 
+span.collapse {
+    display: block;
+}
+
 #signUp div {
     text-align: center;
     display: grid;
@@ -149,6 +153,7 @@ div#copyRight {
     main img {
         width: 67%;
         margin-left: 15%;
+        margin-top: 25%;
     }
 
     img.logo {
@@ -253,13 +258,18 @@ div#copyRight {
     }
 
     div#infoCenter {
-       /* grid-template-columns: 1fr 1.5fr 0.5fr 0.8fr 0.5fr 1fr;*/
+        /* grid-template-columns: 1fr 1.5fr 0.5fr 0.8fr 0.5fr 1fr;*/
         font-size: small;
         margin-right: 5%;
     }
 
     div#copyRight {
         font-size: small;
+    }
+
+    main img {
+       
+        margin-top: 10%;
     }
 
 }
