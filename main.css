@@ -150,13 +150,13 @@ div#copyRight {
     }
 
     input[type="text"] {
-        width: 310px;
+        width: 90%;
         justify-self: center;
         line-height: 2em;
     }
 
     span#reg {
-        width: 300px;
+        width: 90%;
         margin-top: 5%;
         justify-self: center;
         line-height: 1em;
