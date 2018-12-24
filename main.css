@@ -1,0 +1,265 @@
+body {
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5em;
+    height: 3em;
+    font-size: large;
+}
+
+main img {
+    width: 67%;
+    margin-left: 15%;
+}
+
+#signUp div {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4%;
+}
+
+input[type="text"] {
+    width: 300px;
+    font-weight: 400;
+    justify-self: end;
+    line-height: 3em;
+    font-size: large;
+    border-radius: 10px;
+}
+
+span#reg {
+    display: inline-block;
+    width: 250px;
+    /* border: 2px solid black;*/
+    line-height: 2em;
+    max-height: 4em;
+    margin-bottom: 10px;
+    justify-self: start;
+    padding: 10px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 10px;
+}
+
+a#register {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    /* padding: 10%; */
+}
+
+footer {
+    padding-bottom: 10%;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.logo {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    margin-top: 25%;
+    margin-left: -20%;
+}
+
+div#socialContacts {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    grid-column-gap: 20%;
+    margin-left: -25%;
+    margin-bottom: 20%;
+    font-size: xx-large;
+}
+
+div#about {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-size: large;
+    font-weight: 200;
+}
+
+div#footerLogo {
+    display: grid;
+    grid-template-rows: 75% 25%;
+    justify-items: center;
+    /* color: white; */
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram {
+    margin: auto;
+    padding: 2px;
+    color: hsl(192, 100%, 9%);
+    background-color: white;
+    text-decoration: none;
+}
+
+div#infoCenter {
+    align-self: end;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.5fr 0.8fr 0.5fr 1fr;
+    font-size: large;
+}
+
+div#copyRight {
+    align-self: center;
+    justify-self: end;
+    margin-right: 12%;
+}
+
+@media only screen and (max-width: 585px) {
+    header img {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: larger;
+        /* width: 30%; */
+        margin: 15%;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.5em;
+        /* height: 3em; */
+        margin: 0 5% 20% 5%;
+        font-size: medium;
+    }
+
+    main img {
+        width: 67%;
+        margin-left: 15%;
+    }
+
+    img.logo {
+        width: 50%;
+    }
+
+    #signUp h1 {
+        margin: 15% 5%;
+    }
+
+    /*
+    #signUp div {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30%;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        width: 310px;
+        justify-self: center;
+        line-height: 2em;
+    }
+
+    span#reg {
+        width: 300px;
+        justify-self: center;
+        line-height: 1em;
+    }
+*/
+    footer {
+        margin-top: 30%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 50%;
+    }
+
+    div#about {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-row-gap: 70%;
+    }
+
+    div#infoCenter {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10%;
+        font-size: small;
+    }
+
+    div#infoCenter span {
+        margin-left: 10%;
+    }
+
+    div#copyRight {
+        /* align-self: center; */
+        justify-self: center;
+        font-size: small;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        margin-top: 5%;
+        font-size: large;
+    }
+
+    p {
+        margin: 5% 10%;
+    }
+
+    #signUp div {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30%;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        width: 310px;
+        justify-self: center;
+        line-height: 2em;
+    }
+
+    span#reg {
+        width: 300px;
+        justify-self: center;
+        line-height: 1em;
+    }
+
+    div#footerLogo {
+        margin-left: 20%;
+    }
+
+    img.logo {
+        width: 60%;
+    }
+
+    div#infoCenter {
+       /* grid-template-columns: 1fr 1.5fr 0.5fr 0.8fr 0.5fr 1fr;*/
+        font-size: small;
+        margin-right: 5%;
+    }
+
+    div#copyRight {
+        font-size: small;
+    }
+
+}

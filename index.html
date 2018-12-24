@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Huddle landing page with single column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
+
 <body>
-  Build The Community Your Fans Will Love
+  <header>
+    <img src="images/logo.svg">
+  </header>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion.
+  <main>
+    <h1>
+      Build The Community Your Fans Will Love
+    </h1>
 
-  Sign Up For Early Access
+    <p>
+      Huddle re-imagines the way we build communities. You have a voice, <span</span> but so does
+      your audience. Create connections with your users as you <span></span> engage in genuine discussion.
+    </p>
+    <img src="images/screen-mockups.svg">
 
-  Register
 
-  About Us
-  What We Do
-  FAQ
-  Career
-  Blog
-  Contact Us
+    <div id="signUp">
+      <h1>Sign Up For Early Access</h1>
+      <div>
+        <input type="text" name="register">
+        <span id="reg"> <a href="" id="register">Register </a></span>
 
-  &copy; 2018 Huddle Copyright
+      </div>
+    </div>
+
+  </main>
 
   <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
+
+    <div id="footerLogo">
+      <img class="logo" src="images/logo.svg">
+      </img>
+      <div id="socialContacts">
+        <a href="" class="fa fa-facebook-f" rel="noopener"></a>
+        <a href="" class="fa fa-instagram" rel="noopener"></a>
+        <a href="" class="fa fa-twitter" rel="noopener"></a>
+      </div>
+    </div>
+    <div id="about">
+      <div id="infoCenter">
+        <span id="aboutUs"> About Us </span>
+        <span id="whatWeDo"> What We Do </span>
+        <span id="faq"> FAQ</span>
+        <span id="career">Career</span>
+        <span id="blog"> Blog</span>
+        <span id="contact">Contact Us</span>
+      </div>
+
+      <div id="copyRight">
+        &copy; 2018 Huddle Copyright
+      </div>
+    </div>
+
   </footer>
 </body>
+
 </html>
