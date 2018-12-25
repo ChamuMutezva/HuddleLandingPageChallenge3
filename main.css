@@ -150,13 +150,13 @@ div#copyRight {
     }
 
     input[type="text"] {
-        width: 90%;
+        width: 50%;
         justify-self: center;
         line-height: 2em;
     }
 
     span#reg {
-        width: 90%;
+        width: 50%;
         margin-top: 5%;
         justify-self: center;
         line-height: 1em;
@@ -181,13 +181,13 @@ div#copyRight {
     }
 
     main img {
-       
+
         margin-top: 10%;
     }
 
     span.collapse {
         display: inline;
-        
+
     }
 
 }
@@ -225,27 +225,14 @@ div#copyRight {
         margin: 15% 5%;
     }
 
-    /*
-    #signUp div {
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row-gap: 30%;
-        align-items: center;
+    span#reg {
+        width: 90%;       
     }
 
     input[type="text"] {
-        width: 310px;
-        justify-self: center;
-        line-height: 2em;
+        width: 90%;
     }
 
-    span#reg {
-        width: 300px;
-        justify-self: center;
-        line-height: 1em;
-    }
-*/
     footer {
         margin-top: 30%;
         display: grid;
@@ -279,4 +266,3 @@ div#copyRight {
 
 
 }
-
